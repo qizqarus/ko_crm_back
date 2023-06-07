@@ -12,13 +12,37 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
+            //info
             $table->id();
+            $table->string('avatar_path');
             $table->string('full_name');
-            $table->string('phone');
+            $table->date('birth_day');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->string('address');
+            $table->boolean('activity');
+
+            //for-club
+            $table->string('started_work');
+            $table->string('experience');
+            $table->string('about_me');
+            $table->string('hobby');
+            $table->string('favorite_places');
+            $table->string('facebook');
+            $table->string('vk');
+            $table->string('instagram');
+
+            //settings
+            $table->date('duty');
+            $table->string('phone')->unique();
+            $table->string('login_oktell')->unique();
+            $table->string('login_password');
+            $table->boolean('notify');
+            $table->boolean('distribution_results');
+            $table->boolean('accept_leads');
+            $table->boolean('accept_calls');
+            $table->boolean('compulsory_education');
+
+
             $table->rememberToken();
             $table->timestamps();
         });

@@ -19,12 +19,29 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'phone',
         'full_name',
+        'avatar_path',
+        'birth_day',
         'email',
         'password',
-        'address',
-        'role_id',
+        'activity',
+        'started_work',
+        'experience',
+        'about_me',
+        'hobby',
+        'favorite_places',
+        'facebook',
+        'vk',
+        'instagram',
+        'duty',
+        'phone',
+        'login_oktell',
+        'login_password',
+        'notify',
+        'distribution_results',
+        'accept_leads',
+        'accept_calls',
+        'compulsory_education',
     ];
 
     /**

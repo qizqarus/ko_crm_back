@@ -1,0 +1,294 @@
+[2023-06-02 07:38:13] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:38:13] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:50:28] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:50:28] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:53:54] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:53:54] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:55:02] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:55:02] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:55:09] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:55:09] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:57:41] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:57:41] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 07:58:40] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 07:58:40] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:02:26] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:02:26] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:03:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:03:56] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:06:15] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:06:15] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:07:00] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:07:00] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:07:09] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:07:09] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 08:18:12] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 08:18:12] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-06-02 11:59:41] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Call to undefin...', Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#6 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2023-06-02 11:59:41] laravel.ERROR: Call to undefined method Illuminate\Support\ServiceProvider::defaultProviders() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Support\\ServiceProvider::defaultProviders() at C:\\xampp\\htdocs\\upshift-back\\config\\app.php:158)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\upshift-back\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\upshift-back\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
